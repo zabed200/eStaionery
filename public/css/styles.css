@@ -1,0 +1,54 @@
+.caption {height: 156px;}
+
+body {
+    background-image: url("texture.png");
+    background-position: left top;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+.thumbnail {
+    border: 1px solid #bcd3f5;
+}
+
+.item-page {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: white;
+}
+
+.item-tab-panel {
+    padding: 0 2rem;
+}
+.cart-page {
+    padding: 2rem;
+    background-color: white;
+}
+
+.contact-page, .login-page, .shop-page {
+    background-color: white;
+}
+
+.shop-slider {
+    background-color: white;
+}
+
+.navbar-brand {
+    color: #1c4e86 !important;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.navbar , .navbar-nav>li>a{
+    background-color: white;
+    color: #1c4e86 !important;
+    font-weight: bold;
+}
+
+
+@media (min-width: 1200px){
+    .shop-page {
+        width: 970px;
+    }
+}
